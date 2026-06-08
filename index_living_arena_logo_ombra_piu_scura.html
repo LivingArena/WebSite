@@ -1,0 +1,1690 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Living Arena Verona | Camere in centro a Verona</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #eeeeee;
+      color: #2b2b2b;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hero {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      overflow: hidden;
+      background: #111111;
+    }
+
+    .slider {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      opacity: 0;
+      transform: scale(1);
+      animation: fadeSlider 48s infinite;
+    }
+
+    .slide-1 {
+      background-image: url("Front1.jpg");
+      animation-delay: 0s;
+    }
+
+    .slide-2 {
+      background-image: url("front2.jpg");
+      animation-delay: 6s;
+    }
+
+    .slide-3 {
+      background-image: url("Front3.jpg");
+      animation-delay: 12s;
+    }
+
+    .slide-4 {
+      background-image: url("Front4.jpg");
+      animation-delay: 18s;
+    }
+
+    .slide-5 {
+      background-image: url("front5.jpg");
+      animation-delay: 24s;
+    }
+
+    .slide-6 {
+      background-image: url("front6.jpg");
+      animation-delay: 30s;
+    }
+
+    .slide-7 {
+      background-image: url("front7.jpg");
+      animation-delay: 36s;
+    }
+
+    .slide-8 {
+      background-image: url("front8.jpg");
+      animation-delay: 42s;
+    }
+
+    @keyframes fadeSlider {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      5% {
+        opacity: 1;
+      }
+
+      18% {
+        opacity: 1;
+      }
+
+      25% {
+        opacity: 0;
+        transform: scale(1.08);
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(1.08);
+      }
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background:
+        linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.30),
+          rgba(0, 0, 0, 0.54)
+        );
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 22px;
+    }
+
+    .hero-logo-shadow-wrap {
+      position: relative;
+      display: inline-block;
+      width: min(780px, 94vw);
+      margin: 0 auto 34px;
+      animation: livingArenaLogoIntro 1.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      transform-origin: center center;
+      opacity: 0;
+      transform: scale(0.42);
+    }
+
+    .hero-logo-shadow-wrap::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 18px;
+      width: 84%;
+      height: 120px;
+      transform: translateX(-50%);
+      background:
+        radial-gradient(
+          ellipse at center,
+          rgba(0, 0, 0, 0.76) 0%,
+          rgba(0, 0, 0, 0.52) 34%,
+          rgba(0, 0, 0, 0.27) 64%,
+          rgba(0, 0, 0, 0.00) 100%
+        );
+      filter: blur(18px);
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    .hero-symbol {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      filter:
+        drop-shadow(0 20px 32px rgba(0, 0, 0, 0.86))
+        drop-shadow(0 8px 14px rgba(0, 0, 0, 0.54));
+    }
+
+    .gold-text {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+      color: #f7d36b;
+      background: linear-gradient(
+        180deg,
+        #fff2b8 0%,
+        #f7d36b 45%,
+        #d7a92d 100%
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 4px 10px rgba(0, 0, 0, 0.75);
+    }
+
+    .hero-title {
+      font-size: clamp(44px, 7vw, 104px);
+      line-height: 1;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+    }
+
+    .hero-byline {
+      margin-top: 13px;
+      font-size: clamp(17px, 2vw, 29px);
+      letter-spacing: 7px;
+    }
+
+    .hero-location {
+      margin-top: 24px;
+      font-size: clamp(16px, 1.9vw, 26px);
+      letter-spacing: 9px;
+      text-transform: uppercase;
+    }
+
+
+    .hero-contact-bar {
+      margin-top: 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      background: rgba(20, 20, 18, 0.38);
+      color: #ffffff;
+      padding: 13px 22px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(8px);
+      font-family: Arial, Helvetica, sans-serif;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero-contact-bar::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.28);
+      z-index: -1;
+    }
+
+    .hero-contact-bar a {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 1;
+      transition: color 0.25s ease;
+    }
+
+    .hero-contact-bar a:hover {
+      color: #d0922c;
+    }
+
+    .hero-contact-bar svg {
+      width: 20px;
+      height: 20px;
+      fill: #d0922c;
+      flex: 0 0 auto;
+    }
+
+    .hero-contact-separator {
+      width: 1px;
+      height: 27px;
+      background: #d0922c;
+      opacity: 0.75;
+      margin: 0 22px;
+    }
+
+    .hero-button {
+      margin-top: 44px;
+      display: inline-block;
+      padding: 15px 36px;
+      border: 1px solid rgba(218, 170, 53, 0.88);
+      color: #f8e6a6;
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: rgba(35, 35, 35, 0.56);
+      backdrop-filter: blur(7px);
+      transition: 0.3s ease;
+    }
+
+    .hero-button:hover {
+      background: rgba(218, 170, 53, 0.88);
+      color: #171717;
+    }
+
+    .intro {
+      padding: 90px 22px;
+      background: linear-gradient(180deg, #f7f7f7 0%, #dddddd 100%);
+      text-align: center;
+    }
+
+    .intro h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(32px, 5vw, 58px);
+      font-weight: 400;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #333333;
+      margin-bottom: 24px;
+    }
+
+    .intro-text {
+      max-width: 920px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.8;
+      color: #555555;
+    }
+
+    .intro-text p {
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      max-width: 1180px;
+      margin: 60px auto 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 38px 28px;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .card h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: #262626;
+      margin-bottom: 16px;
+    }
+
+    .card p {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #666666;
+    }
+
+    .card p:last-of-type {
+      margin-bottom: 28px;
+    }
+
+    .camera-slider-window {
+      position: relative;
+      width: 100%;
+      height: 240px;
+      margin-top: auto;
+      overflow: hidden;
+      border-radius: 8px;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
+      background: #111111;
+    }
+
+    .camera-slider-window img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      animation: cameraGalleryFade 15s infinite;
+    }
+
+    .camera-slider-window img:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    .camera-slider-window img:nth-child(2) {
+      animation-delay: 5s;
+    }
+
+    .camera-slider-window img:nth-child(3) {
+      animation-delay: 10s;
+    }
+
+    @keyframes cameraGalleryFade {
+      0% { opacity: 0; }
+      8% { opacity: 1; }
+      33% { opacity: 1; }
+      41% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+
+    .room-card-trigger {
+      cursor: pointer;
+      transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+    }
+
+    .room-card-trigger:hover {
+      transform: translateY(-8px);
+      border-color: rgba(208, 146, 44, 0.45);
+      box-shadow: 0 26px 64px rgba(0, 0, 0, 0.16);
+    }
+
+    .room-card-trigger:focus {
+      outline: 2px solid rgba(208, 146, 44, 0.75);
+      outline-offset: 4px;
+    }
+
+    .camera-slider-window {
+      height: 245px;
+    }
+
+    .room-popup {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 34px;
+      background: rgba(12, 12, 12, 0.72);
+      backdrop-filter: blur(8px);
+    }
+
+    .room-popup.is-open {
+      display: flex;
+    }
+
+    .room-popup-panel {
+      position: relative;
+      width: min(1180px, 96vw);
+      max-height: 92vh;
+      display: grid;
+      grid-template-columns: minmax(0, 1.06fr) minmax(390px, 0.94fr);
+      background: #efefef;
+      border: 1px solid rgba(208, 146, 44, 0.34);
+      box-shadow: 0 34px 90px rgba(0, 0, 0, 0.46);
+      overflow: hidden;
+    }
+
+    .room-popup.is-open .room-popup-gallery {
+      animation: popupGalleryIn 0.56s ease forwards;
+    }
+
+    .room-popup.is-open .room-popup-info {
+      animation: popupInfoIn 0.56s ease forwards;
+    }
+
+    @keyframes popupGalleryIn {
+      from {
+        opacity: 0;
+        transform: translateX(-70px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes popupInfoIn {
+      from {
+        opacity: 0;
+        transform: translateX(70px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .room-popup-gallery {
+      position: relative;
+      min-height: 610px;
+      background: #111111;
+      opacity: 0;
+    }
+
+    .popup-slide-image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 0.6s ease;
+    }
+
+    .popup-slide-image.is-active {
+      opacity: 1;
+    }
+
+    .room-popup-gallery::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.03)),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.18));
+      pointer-events: none;
+    }
+
+    .popup-nav-button {
+      position: absolute;
+      top: 50%;
+      z-index: 4;
+      width: 48px;
+      height: 48px;
+      border: 1px solid rgba(208, 146, 44, 0.65);
+      background: rgba(24, 24, 22, 0.66);
+      color: #f3c96b;
+      font-size: 34px;
+      line-height: 1;
+      cursor: pointer;
+      transform: translateY(-50%);
+      transition: background 0.25s ease, color 0.25s ease;
+    }
+
+    .popup-nav-button:hover {
+      background: rgba(208, 146, 44, 0.88);
+      color: #171717;
+    }
+
+    .popup-prev {
+      left: 22px;
+    }
+
+    .popup-next {
+      right: 22px;
+    }
+
+    .popup-counter {
+      position: absolute;
+      left: 24px;
+      bottom: 22px;
+      z-index: 4;
+      padding: 9px 14px;
+      background: rgba(22, 22, 20, 0.66);
+      color: #ffffff;
+      font-size: 13px;
+      letter-spacing: 2px;
+      border-left: 3px solid #d0922c;
+    }
+
+    .room-popup-info {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 44px 34px;
+      background:
+        radial-gradient(circle at top right, rgba(208, 146, 44, 0.12), transparent 34%),
+        linear-gradient(180deg, #f7f7f7 0%, #e8e8e8 100%);
+      opacity: 0;
+    }
+
+    .room-popup-info-box {
+      width: 100%;
+      padding: 38px 32px 34px;
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid rgba(208, 146, 44, 0.28);
+      box-shadow: 0 18px 44px rgba(0, 0, 0, 0.10);
+      text-align: center;
+    }
+
+    .popup-kicker {
+      display: block;
+      margin-bottom: 16px;
+      font-size: 12px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #c08326;
+    }
+
+    .room-popup-info h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 4.4vw, 64px);
+      font-weight: 400;
+      line-height: 1.05;
+      color: #202020;
+      margin-bottom: 28px;
+    }
+
+    .popup-description p {
+      font-size: 17px;
+      line-height: 1.82;
+      color: #555555;
+      margin-bottom: 18px;
+    }
+
+    .popup-room-meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .popup-room-meta-item {
+      background: rgba(31, 31, 29, 0.95);
+      color: #ffffff;
+      padding: 16px 10px;
+      border-bottom: 3px solid #d0922c;
+    }
+
+    .popup-room-meta-item span {
+      display: block;
+      margin-bottom: 7px;
+      color: #d0922c;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .popup-room-meta-item strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.35;
+    }
+
+    .room-popup-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 8;
+      width: 42px;
+      height: 42px;
+      border: 1px solid rgba(208, 146, 44, 0.65);
+      background: rgba(24, 24, 22, 0.72);
+      color: #f3c96b;
+      font-size: 30px;
+      line-height: 38px;
+      cursor: pointer;
+    }
+
+    .room-popup-close:hover {
+      background: rgba(208, 146, 44, 0.88);
+      color: #171717;
+    }
+
+    .map-section {
+      max-width: 1180px;
+      margin: 70px auto 0;
+      text-align: center;
+    }
+
+    .map-section h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(30px, 4vw, 48px);
+      font-weight: 400;
+      letter-spacing: 4px;
+      color: #333333;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+    }
+
+    .map-frame {
+      background: #ffffff;
+      padding: 16px;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+    }
+
+    #livingArenaMap {
+      width: 100%;
+      height: 460px;
+      border-radius: 4px;
+      z-index: 1;
+    }
+
+    @media (max-width: 600px) {
+
+      .hero-contact-bar {
+        width: calc(100% - 24px);
+        flex-wrap: wrap;
+        row-gap: 10px;
+        padding: 12px 14px;
+        white-space: normal;
+      }
+
+      .hero-contact-bar a {
+        font-size: 14px;
+      }
+
+      .hero-contact-separator {
+        height: 22px;
+        margin: 0 12px;
+      }
+
+      #livingArenaMap {
+        height: 360px;
+      }
+    }
+
+@media (max-width: 900px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-logo-shadow-wrap {
+        width: min(560px, 96vw);
+      }
+
+      .hero-title {
+        letter-spacing: 5px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        min-height: 92vh;
+      }
+
+      .hero-content {
+        min-height: 92vh;
+        padding: 30px 16px;
+      }
+
+      .hero-logo-shadow-wrap {
+        width: 94vw;
+        margin-bottom: 12px;
+      }
+
+      .hero-logo-shadow-wrap::after {
+        bottom: 12px;
+        width: 86%;
+        height: 90px;
+        filter: blur(15px);
+      }
+
+      .hero-title {
+        font-size: 42px;
+        letter-spacing: 4px;
+      }
+
+      .hero-byline {
+        font-size: 17px;
+        letter-spacing: 4px;
+      }
+
+      .hero-location {
+        font-size: 15px;
+        letter-spacing: 5px;
+      }
+
+      .hero-button {
+        padding: 13px 26px;
+      }
+    }
+  
+    /* FIX POPUP: dimensioni più compatte e contenuto sempre visibile */
+    .room-popup {
+      padding: 24px;
+    }
+
+    .room-popup-panel {
+      width: min(1120px, 94vw);
+      height: min(720px, 86vh);
+      max-height: 86vh;
+      grid-template-columns: minmax(0, 1fr) minmax(360px, 0.88fr);
+      overflow: hidden;
+    }
+
+    .room-popup-gallery {
+      min-height: 0;
+      height: 100%;
+    }
+
+    .room-popup-info {
+      height: 100%;
+      padding: 28px 28px;
+      overflow: hidden;
+    }
+
+    .room-popup-info-box {
+      max-height: 100%;
+      overflow-y: auto;
+      padding: 30px 28px 26px;
+    }
+
+    .room-popup-info h3 {
+      font-size: clamp(36px, 4vw, 56px);
+      margin-bottom: 22px;
+    }
+
+    .popup-description p {
+      font-size: 16px;
+      line-height: 1.72;
+      margin-bottom: 14px;
+    }
+
+    .popup-room-meta {
+      margin-top: 24px;
+    }
+
+    .popup-room-meta-item {
+      padding: 13px 10px;
+    }
+
+    @media (max-width: 900px) {
+      .room-popup {
+        padding: 12px;
+      }
+
+      .room-popup-panel {
+        width: 96vw;
+        height: 90vh;
+        max-height: 90vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 38vh auto;
+        overflow-y: auto;
+      }
+
+      .room-popup-gallery {
+        min-height: 0;
+        height: 38vh;
+      }
+
+      .room-popup-info {
+        height: auto;
+        padding: 18px 14px;
+      }
+
+      .room-popup-info-box {
+        max-height: none;
+        overflow-y: visible;
+        padding: 24px 18px 22px;
+      }
+
+      .popup-room-meta {
+        grid-template-columns: 1fr;
+      }
+    }
+
+  
+    /* FIX SMOOTH POPUP DEFINITIVO */
+    .room-popup-panel {
+      overflow: hidden;
+    }
+
+    .room-popup-gallery {
+      opacity: 0;
+      transform: translateX(-90px);
+      will-change: transform, opacity;
+    }
+
+    .room-popup-info {
+      opacity: 0;
+      transform: translateX(90px);
+      will-change: transform, opacity;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .room-popup.is-open .room-popup-gallery {
+      animation: popupGalleryInSmooth 1.05s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .room-popup.is-open .room-popup-info {
+      animation: popupInfoInSmooth 1.05s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .room-popup.is-closing .room-popup-gallery {
+      animation: popupGalleryOutSmooth 0.78s cubic-bezier(0.64, 0, 0.78, 0) forwards;
+    }
+
+    .room-popup.is-closing .room-popup-info {
+      animation: popupInfoOutSmooth 0.78s cubic-bezier(0.64, 0, 0.78, 0) forwards;
+    }
+
+    .room-popup.is-closing {
+      animation: popupBackdropOutSmooth 0.78s ease forwards;
+    }
+
+    @keyframes popupGalleryInSmooth {
+      from {
+        opacity: 0;
+        transform: translateX(-90px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes popupInfoInSmooth {
+      from {
+        opacity: 0;
+        transform: translateX(90px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes popupGalleryOutSmooth {
+      from {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateX(-90px);
+      }
+    }
+
+    @keyframes popupInfoOutSmooth {
+      from {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateX(90px);
+      }
+    }
+
+    @keyframes popupBackdropOutSmooth {
+      from {
+        background: rgba(12, 12, 12, 0.72);
+        backdrop-filter: blur(8px);
+      }
+
+      to {
+        background: rgba(12, 12, 12, 0);
+        backdrop-filter: blur(0);
+      }
+    }
+
+    @media (max-width: 900px) {
+      .room-popup-info {
+        height: auto;
+      }
+    }
+
+  
+    .room-card-button {
+      display: inline-block;
+      align-self: center;
+      margin: 18px auto 28px;
+      padding: 12px 34px;
+      border: 1px solid rgba(208, 146, 44, 0.88);
+      background: rgba(31, 31, 29, 0.94);
+      color: #f3c96b;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+    }
+
+    .room-card-button:hover {
+      background: rgba(208, 146, 44, 0.92);
+      color: #171717;
+      transform: translateY(-2px);
+    }
+
+  
+    /* FIX CARD CAMERE: descrizione breve, bottone e foto allineati */
+    .card {
+      background: #ffffff;
+      padding: 38px 28px;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+      display: grid;
+      grid-template-rows: auto 96px 58px 245px;
+      height: 100%;
+      align-items: start;
+    }
+
+    .card h3 {
+      align-self: start;
+      margin-bottom: 16px;
+    }
+
+    .card p {
+      min-height: 70px;
+      margin-bottom: 0;
+    }
+
+    .room-card-button {
+      align-self: center;
+      justify-self: center;
+      margin: 0 auto;
+    }
+
+    .camera-slider-window {
+      align-self: start;
+      margin-top: 0;
+      height: 245px;
+    }
+
+    @media (max-width: 900px) {
+      .card {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card p {
+        min-height: auto;
+      }
+
+      .room-card-button {
+        margin: 18px auto 28px;
+      }
+
+      .camera-slider-window {
+        height: 245px;
+      }
+    }
+
+  
+    /* ANIMAZIONE LOGO IN APERTURA */
+    .hero-symbol {
+      opacity: 1;
+      transform: none;
+    }
+
+    .hero-button,
+    .hero-contact-bar {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: livingArenaTextIntro 1.05s ease forwards;
+      animation-delay: 0.72s;
+    }
+
+    .hero-byline {
+      animation-delay: 0.86s;
+    }
+
+    .hero-location {
+      animation-delay: 1s;
+    }
+
+    .hero-button {
+      animation-delay: 1.14s;
+    }
+
+    .hero-contact-bar {
+      animation-delay: 1.28s;
+    }
+
+    @keyframes livingArenaLogoIntro {
+      0% {
+        opacity: 0;
+        transform: scale(0.42);
+        filter: none;
+      }
+
+      55% {
+        opacity: 1;
+        transform: scale(1.06);
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1);
+        filter: none;
+      }
+    }
+
+    @keyframes livingArenaTextIntro {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  
+    /* IMMAGINI DA FILE GITHUB */
+    .camera-slider-window img {
+      opacity: 1;
+      animation: none;
+    }
+
+  
+    /* FIX POPUP MOBILE: descrizione adattata e scrollabile */
+    @media (max-width: 900px) {
+      .room-popup {
+        padding: 10px;
+        align-items: center;
+      }
+
+      .room-popup-panel {
+        width: 96vw;
+        height: 92vh;
+        max-height: 92vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 36vh minmax(0, 1fr);
+        overflow: hidden;
+      }
+
+      .room-popup-gallery {
+        height: 36vh;
+        min-height: 0;
+      }
+
+      .room-popup-info {
+        height: 100%;
+        min-height: 0;
+        padding: 14px;
+        overflow: hidden;
+        align-items: stretch;
+      }
+
+      .room-popup-info-box {
+        height: 100%;
+        max-height: 100%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 22px 18px 24px;
+      }
+
+      .room-popup-info h3 {
+        font-size: clamp(30px, 9vw, 44px);
+        margin-bottom: 18px;
+      }
+
+      .popup-kicker {
+        font-size: 10px;
+        letter-spacing: 3px;
+        margin-bottom: 12px;
+      }
+
+      .popup-description p {
+        font-size: 15px;
+        line-height: 1.65;
+        margin-bottom: 13px;
+      }
+
+      .popup-room-meta {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 20px;
+      }
+
+      .room-popup-close {
+        top: 10px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+        line-height: 36px;
+        z-index: 20;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .room-popup-panel {
+        height: 94vh;
+        max-height: 94vh;
+        grid-template-rows: 32vh minmax(0, 1fr);
+      }
+
+      .room-popup-gallery {
+        height: 32vh;
+      }
+
+      .room-popup-info {
+        padding: 10px;
+      }
+
+      .room-popup-info-box {
+        padding: 20px 15px 24px;
+      }
+
+      .popup-nav-button {
+        width: 38px;
+        height: 38px;
+        font-size: 26px;
+      }
+
+      .popup-prev {
+        left: 10px;
+      }
+
+      .popup-next {
+        right: 10px;
+      }
+    }
+
+  
+    /* FIX FORMATO IMMAGINI PRINCIPALI 16:9 */
+    .camera-slider-window {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      height: auto;
+      min-height: 0;
+    }
+
+    .camera-slider-window img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @media (max-width: 900px) {
+      .camera-slider-window {
+        aspect-ratio: 16 / 9;
+        height: auto;
+        min-height: 0;
+      }
+    }
+
+  
+    /* FIX SFONDO POPUP: quasi trasparente e sfumato */
+    .room-popup {
+      background:
+        radial-gradient(circle at center, rgba(20, 20, 20, 0.26) 0%, rgba(20, 20, 20, 0.18) 42%, rgba(20, 20, 20, 0.06) 100%);
+      backdrop-filter: blur(3px);
+    }
+
+    .room-popup-panel {
+      border: 1px solid rgba(208, 146, 44, 0.22);
+      box-shadow: 0 28px 90px rgba(0, 0, 0, 0.26);
+      background: rgba(239, 239, 239, 0.88);
+    }
+
+    .room-popup-info {
+      background:
+        radial-gradient(circle at top right, rgba(208, 146, 44, 0.09), transparent 38%),
+        linear-gradient(180deg, rgba(247, 247, 247, 0.88) 0%, rgba(232, 232, 232, 0.82) 100%);
+    }
+
+    .room-popup-info-box {
+      background: rgba(255, 255, 255, 0.74);
+      border: 1px solid rgba(208, 146, 44, 0.20);
+    }
+
+    .room-popup.is-closing {
+      animation: popupBackdropOutSoft 0.78s ease forwards;
+    }
+
+    @keyframes popupBackdropOutSoft {
+      from {
+        background:
+          radial-gradient(circle at center, rgba(20, 20, 20, 0.26) 0%, rgba(20, 20, 20, 0.18) 42%, rgba(20, 20, 20, 0.06) 100%);
+        backdrop-filter: blur(3px);
+      }
+
+      to {
+        background:
+          radial-gradient(circle at center, rgba(20, 20, 20, 0) 0%, rgba(20, 20, 20, 0) 100%);
+        backdrop-filter: blur(0);
+      }
+    }
+
+  </style>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  >
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="slider">
+      <div class="slide slide-1"></div>
+      <div class="slide slide-2"></div>
+      <div class="slide slide-3"></div>
+      <div class="slide slide-4"></div>
+      <div class="slide slide-5"></div>
+      <div class="slide slide-6"></div>
+      <div class="slide slide-7"></div>
+      <div class="slide slide-8"></div>
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-logo-shadow-wrap">
+        <img class="hero-symbol" src="Logo Originale Mix1.png" alt="Living Arena Verona">
+      </div>
+      <a class="hero-button" href="#camere">Scopri le camere</a>
+      <div class="hero-contact-bar">
+        <a href="tel:+39045591333" aria-label="Chiama Living Arena">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.61 21 3 13.39 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
+          </svg>
+          <span>045 591333</span>
+        </a>
+
+        <span class="hero-contact-separator"></span>
+
+        <a href="mailto:info@sanlucahotel.com" aria-label="Invia una mail a Living Arena">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"></path>
+          </svg>
+          <span>info@sanlucahotel.com</span>
+        </a>
+
+        <span class="hero-contact-separator"></span>
+
+        <a href="https://www.google.com/maps/search/?api=1&query=Via%20dei%20Mutilati%203%20Verona%20Italia" target="_blank" rel="noopener" aria-label="Apri indirizzo su Google Maps">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"></path>
+          </svg>
+          <span>Via dei Mutilati 3 - Verona</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" id="camere">
+      <h2>Camere nel cuore di Verona</h2>
+
+      <div class="intro-text">
+        <p>
+          Situato nel Centro Storico di Verona, il Living Arena gode di una posizione strategica,
+          a 150 metri da Piazza Bra, a 450 metri dal Museo di Castelvecchio e a 280 metri
+          dall'Arena di Verona. La struttura dista circa 900 metri da Piazza delle Erbe,
+          550 metri da Via Mazzini e 1,2 km dalla Basilica di San Zeno.
+          Potrete usufruire della connessione WiFi gratuita e del parcheggio privato a pagamento.
+        </p>
+
+        <p>
+          Tutte le camere sono dotate di aria condizionata, TV satellitare a schermo piatto,
+          bollitore, bidet, asciugacapelli e scrivania. Le sistemazioni dispongono anche
+          di un armadio e di un bagno privato.
+        </p>
+
+        <p>
+          Il Living Arena dista 450 metri dal Ponte di Castelvecchio e 1,6 km dal Ponte Pietra.
+          L'Aeroporto di Verona Villafranca, lo scalo più vicino, sorge a 13 km dalla struttura.
+        </p>
+      </div>
+
+      <div class="cards">
+        <div class="card room-card-trigger" data-room-index="0" tabindex="0" role="button" aria-label="Clicca per aprire foto e dettagli Camera Economy 1">
+          <h3>Camera Economy 1</h3>
+
+          <p>
+            Camera accogliente e luminosa per 2 persone, ideale per un soggiorno tranquillo nel centro di Verona.
+          </p>
+          <button class="room-card-button" type="button">Vai</button>
+          <div class="camera-slider-window" aria-label="Foto Camera Economy 1">
+            <img src="cam1.jpg" alt="Camera De Luxe 2 con letto e divano letto">
+          </div>
+        </div>
+
+        <div class="card room-card-trigger" data-room-index="1" tabindex="0" role="button" aria-label="Clicca per aprire foto e dettagli Camera De Luxe 2">
+          <h3>Camera De Luxe 2</h3>
+
+          <p>
+            Camera spaziosa per 2 o 3 persone, con divano letto e ambiente moderno e confortevole.
+          </p>
+          <button class="room-card-button" type="button">Vai</button>
+          <div class="camera-slider-window" aria-label="Foto Camera De Luxe 2">
+            <img src="cam2.jpg" alt="Camera De Luxe 2 con letto e divano letto">
+          </div>
+        </div>
+
+        <div class="card room-card-trigger" data-room-index="2" tabindex="0" role="button" aria-label="Clicca per aprire foto e dettagli Camera De Luxe 3">
+          <h3>Camera De Luxe 3</h3>
+
+          <p>
+            Camera ampia fino a 4 persone, perfetta per famiglie o piccoli gruppi grazie al divano letto matrimoniale.
+          </p>
+          <button class="room-card-button" type="button">Vai</button>
+          <div class="camera-slider-window" aria-label="Foto Camera De Luxe 3">
+            <img src="cam3.jpg" alt="Camera De Luxe 2 con letto e divano letto">
+          </div>
+        </div>
+      </div>
+
+      <div class="map-section">
+        <h3>Mappa</h3>
+        <div class="map-frame">
+          <div id="livingArenaMap"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var mapElement = document.getElementById("livingArenaMap");
+
+      if (mapElement) {
+        var livingArenaPosition = [45.4377208, 10.9903012];
+
+        var map = L.map("livingArenaMap", {
+          scrollWheelZoom: false
+        }).setView(livingArenaPosition, 16);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          maxZoom: 19,
+          attribution: "&copy; OpenStreetMap contributors"
+        }).addTo(map);
+
+        var orangeIcon = L.divIcon({
+          className: "living-arena-marker",
+          html: '<div style="width:38px;height:38px;border-radius:50%;background:#f47b3a;color:#ffffff;display:flex;align-items:center;justify-content:center;font-weight:bold;font-family:Arial,Helvetica,sans-serif;font-size:20px;box-shadow:0 6px 16px rgba(0,0,0,0.35);">H</div>',
+          iconSize: [38, 38],
+          iconAnchor: [19, 38],
+          popupAnchor: [0, -38]
+        });
+
+        L.marker(livingArenaPosition, {
+          icon: orangeIcon
+        }).addTo(map).bindPopup("<strong>Living Arena</strong><br>Via dei Mutilati 3<br>37122 Verona VR, Italia");
+      }
+    });
+  </script>
+
+
+  <div class="room-popup" id="roomPopup" aria-hidden="true">
+    <div class="room-popup-panel" role="dialog" aria-modal="true" aria-label="Dettagli camera">
+      <button class="room-popup-close" type="button" aria-label="Chiudi finestra">×</button>
+
+      <div class="room-popup-gallery" id="popupGallery">
+        <button class="popup-nav-button popup-prev" type="button" aria-label="Foto precedente">‹</button>
+        <button class="popup-nav-button popup-next" type="button" aria-label="Foto successiva">›</button>
+        <div class="popup-counter" id="popupCounter">1 / 1</div>
+      </div>
+
+      <div class="room-popup-info">
+        <div class="room-popup-info-box">
+          <span class="popup-kicker" id="popupKicker">Living Arena Verona</span>
+          <h3 id="popupTitle"></h3>
+          <div class="popup-description" id="popupDescription"></div>
+          <div class="popup-room-meta" id="popupMeta"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var roomsData = [{"title": "Camera Economy 1", "kicker": "Living Arena Verona · Camera 1", "paragraphs": ["Camera Economy ideale per 2 persone, accogliente e luminosa, pensata per offrire comfort e tranquillità durante il soggiorno.", "La camera dispone di bagno privato, aria condizionata e una piacevole vista sul giardino interno, che garantisce un’atmosfera riservata e rilassante, lontana dal rumore della città.", "Perfetta per chi cerca una soluzione semplice, comoda e tranquilla nel cuore di Verona."], "images": ["cam1.jpg"], "meta": [{"label": "Persone", "value": "2"}, {"label": "Vista", "value": "Giardino interno"}, {"label": "Comfort", "value": "Bagno privato"}]}, {"title": "Camera De Luxe 2", "kicker": "Living Arena Verona · Camera 2", "paragraphs": ["Camera De Luxe 2 ideale per 2 o 3 persone, accogliente e luminosa, pensata per offrire comfort e tranquillità durante il soggiorno.", "La camera dispone di bagno privato, aria condizionata e una piacevole vista sul giardino interno, che garantisce un’atmosfera riservata e rilassante, lontana dal rumore della città.", "Grazie al divano letto in camera, è perfetta anche per chi cerca una soluzione comoda e spaziosa per tre persone nel cuore di Verona."], "images": ["cam2.jpg"], "meta": [{"label": "Persone", "value": "2 / 3"}, {"label": "Extra", "value": "Divano letto"}, {"label": "Comfort", "value": "Spazi più ampi"}]}, {"title": "Camera De Luxe 3", "kicker": "Living Arena Verona · Camera 3", "paragraphs": ["Camera De Luxe 3 ampia e luminosa, adatta per soggiorni fino a 4 persone, ideale per chi desidera più spazio senza rinunciare alla tranquillità.", "Dotata di bagno privato, aria condizionata e affaccio sul giardino interno, offre un ambiente riservato e piacevole, perfetto per rilassarsi dopo una giornata a Verona.", "Il divano letto matrimoniale permette di ospitare comodamente anche famiglie o piccoli gruppi, mantenendo una soluzione pratica e confortevole nel cuore della città."], "images": ["cam3.jpg"], "meta": [{"label": "Persone", "value": "fino a 4"}, {"label": "Extra", "value": "Divano letto matrimoniale"}, {"label": "Comfort", "value": "Ideale famiglie"}]}];
+
+      var popup = document.getElementById("roomPopup");
+      var popupGallery = document.getElementById("popupGallery");
+      var popupTitle = document.getElementById("popupTitle");
+      var popupKicker = document.getElementById("popupKicker");
+      var popupDescription = document.getElementById("popupDescription");
+      var popupMeta = document.getElementById("popupMeta");
+      var popupCounter = document.getElementById("popupCounter");
+      var closeButton = document.querySelector(".room-popup-close");
+      var prevButton = document.querySelector(".popup-prev");
+      var nextButton = document.querySelector(".popup-next");
+      var roomCards = document.querySelectorAll(".room-card-trigger");
+
+      var currentRoom = 0;
+      var currentSlide = 0;
+      var popupTimer = null;
+function clearGalleryImages() {
+        var oldImages = popupGallery.querySelectorAll(".popup-slide-image");
+        for (var i = 0; i < oldImages.length; i++) {
+          oldImages[i].remove();
+        }
+      }
+
+      function updateCounter() {
+        var room = roomsData[currentRoom];
+        if (room) {
+          if (popupCounter) {
+            popupCounter.textContent = (currentSlide + 1) + " / " + room.images.length;
+          }
+        }
+      }
+
+      function showSlide(index) {
+        var room = roomsData[currentRoom];
+        if (room) {
+          if (index < 0) {
+            currentSlide = room.images.length - 1;
+          } else {
+            if (index >= room.images.length) {
+              currentSlide = 0;
+            } else {
+              currentSlide = index;
+            }
+          }
+
+          var images = popupGallery.querySelectorAll(".popup-slide-image");
+          for (var i = 0; i < images.length; i++) {
+            images[i].classList.remove("is-active");
+          }
+
+          if (images[currentSlide]) {
+            images[currentSlide].classList.add("is-active");
+          }
+
+          updateCounter();
+        }
+      }
+
+      function startAutoSlide() {
+        stopAutoSlide();
+        popupTimer = window.setInterval(function () {
+          showSlide(currentSlide + 1);
+        }, 3500);
+      }
+
+      function stopAutoSlide() {
+        if (popupTimer) {
+          window.clearInterval(popupTimer);
+          popupTimer = null;
+        }
+      }
+
+      function buildDescription(room) {
+        popupDescription.innerHTML = "";
+        for (var i = 0; i < room.paragraphs.length; i++) {
+          var p = document.createElement("p");
+          p.textContent = room.paragraphs[i];
+          popupDescription.appendChild(p);
+        }
+      }
+
+      function buildMeta(room) {
+        popupMeta.innerHTML = "";
+        for (var i = 0; i < room.meta.length; i++) {
+          var item = document.createElement("div");
+          item.className = "popup-room-meta-item";
+
+          var label = document.createElement("span");
+          label.textContent = room.meta[i].label;
+
+          var value = document.createElement("strong");
+          value.textContent = room.meta[i].value;
+
+          item.appendChild(label);
+          item.appendChild(value);
+          popupMeta.appendChild(item);
+        }
+      }
+
+      function openRoomPopup(index) {
+        var room = roomsData[index];
+
+        if (room) {
+          currentRoom = index;
+          currentSlide = 0;
+
+          clearGalleryImages();
+
+          for (var i = 0; i < room.images.length; i++) {
+            var img = document.createElement("img");
+            img.className = "popup-slide-image";
+            img.src = room.images[i];
+            img.alt = room.title + " foto " + (i + 1);
+            popupGallery.appendChild(img);
+          }
+
+          popupTitle.textContent = room.title;
+          popupKicker.textContent = room.kicker;
+
+          buildDescription(room);
+          buildMeta(room);
+          showSlide(0);
+
+          popup.classList.add("is-open");
+          popup.setAttribute("aria-hidden", "false");
+          document.body.style.overflow = "hidden";
+
+          startAutoSlide();
+        }
+      }
+
+      function closeRoomPopup() {
+        stopAutoSlide();
+
+        if (popup.classList.contains("is-open")) {
+          popup.classList.add("is-closing");
+
+          window.setTimeout(function () {
+            popup.classList.remove("is-open");
+            popup.classList.remove("is-closing");
+            popup.setAttribute("aria-hidden", "true");
+            document.body.style.overflow = "";
+          }, 800);
+        }
+      }
+
+      function isTouchDevice() {
+        if ("ontouchstart" in window) {
+          return true;
+        }
+        if (navigator.maxTouchPoints) {
+          if (navigator.maxTouchPoints > 0) {
+            return true;
+          }
+        }
+        return false;
+      }
+
+      for (var c = 0; c < roomCards.length; c++) {
+        roomCards[c].addEventListener("click", function () {
+          var index = parseInt(this.getAttribute("data-room-index"), 10);
+          openRoomPopup(index);
+        });
+
+        roomCards[c].addEventListener("keydown", function (event) {
+          if (event.key === "Enter") {
+            var index = parseInt(this.getAttribute("data-room-index"), 10);
+            openRoomPopup(index);
+          }
+          if (event.key === " ") {
+            event.preventDefault();
+            var indexSpace = parseInt(this.getAttribute("data-room-index"), 10);
+            openRoomPopup(indexSpace);
+          }
+        });
+      }
+
+      if (closeButton) {
+        closeButton.addEventListener("click", closeRoomPopup);
+      }
+
+      if (popup) {
+        popup.addEventListener("click", function (event) {
+          if (event.target === popup) {
+            closeRoomPopup();
+          }
+        });
+      }
+
+      if (prevButton) {
+        prevButton.addEventListener("click", function () {
+          showSlide(currentSlide - 1);
+          startAutoSlide();
+        });
+      }
+
+      if (nextButton) {
+        nextButton.addEventListener("click", function () {
+          showSlide(currentSlide + 1);
+          startAutoSlide();
+        });
+      }
+
+      document.addEventListener("keydown", function (event) {
+        if (popup.classList.contains("is-open")) {
+          if (event.key === "Escape") {
+            closeRoomPopup();
+          }
+          if (event.key === "ArrowLeft") {
+            showSlide(currentSlide - 1);
+            startAutoSlide();
+          }
+          if (event.key === "ArrowRight") {
+            showSlide(currentSlide + 1);
+            startAutoSlide();
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
