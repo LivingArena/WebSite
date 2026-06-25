@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "update-events": "node scripts/update-events.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
