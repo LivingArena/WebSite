@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "date": "2026-06-25",
+      "category": "opera",
+      "title": "Inserisci qui l'opera del giorno",
+      "time": "21:00",
+      "place": "Arena di Verona",
+      "url": "https://www.arena.it"
+    },
+    {
+      "date": "2026-06-25",
+      "category": "concert",
+      "title": "Inserisci qui il concerto del giorno",
+      "time": "21:00",
+      "place": "Arena di Verona",
+      "url": "https://www.arena.it"
+    },
+    {
+      "date": "2026-06-25",
+      "category": "fair",
+      "title": "Inserisci qui la fiera del giorno",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it"
+    }
+  ]
+}
