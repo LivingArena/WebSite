@@ -97,57 +97,122 @@ function parseArenaCalendar(html, events) {
   let currentMonth = "";
   let currentYear = "";
 
+  function isMonthYear(value) {
+    return cleanText(value)
+      .toLowerCase()
+      .match(/^(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(20\d{2})$/);
+  }
+
+  function isWeekdayDay(value) {
+    const lower = cleanText(value).toLowerCase();
+
+    for (let w = 0; w < WEEKDAYS.length; w++) {
+      const dayMatch = lower.match(new RegExp("^" + WEEKDAYS[w] + "\\s+(\\d{1,2})$"));
+
+      if (dayMatch) {
+        return pad2(dayMatch[1]);
+      }
+    }
+
+    return "";
+  }
+
+  function isCategory(value) {
+    return /^(Opera|Concerto|Balletto)$/i.test(cleanText(value));
+  }
+
   for (let i = 0; i < lines.length; i++) {
     const lineLower = lines[i].toLowerCase();
 
-    const monthYear = lineLower.match(/^(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(20\d{2})$/);
+    const monthYear = isMonthYear(lineLower);
     if (monthYear) {
       currentMonth = MONTHS[monthYear[1]];
       currentYear = monthYear[2];
       continue;
     }
 
-    const title = lines[i];
-    const place = lines[i + 1] || "";
-    const time = lines[i + 2] || "";
+    const time = lines[i];
 
     if (!/^\d{1,2}:\d{2}$/.test(time)) {
       continue;
     }
 
+    const place = lines[i - 1] || "";
+
     if (!/Arena di Verona/i.test(place)) {
+      continue;
+    }
+
+    const title = lines[i - 2] || "";
+
+    if (!title) {
+      continue;
+    }
+
+    if (isCategory(title)) {
       continue;
     }
 
     let foundDay = "";
     let foundCategory = "";
-    let foundYear = currentYear;
     let foundMonth = currentMonth;
+    let foundYear = currentYear;
 
-    for (let j = i + 3; j < Math.min(i + 18, lines.length); j++) {
+    for (let j = i - 3; j >= Math.max(0, i - 28); j--) {
       const current = lines[j];
       const lower = current.toLowerCase();
 
-      const my = lower.match(/^(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(20\d{2})$/);
+      const my = isMonthYear(lower);
       if (my) {
         foundMonth = MONTHS[my[1]];
         foundYear = my[2];
       }
 
-      for (let w = 0; w < WEEKDAYS.length; w++) {
-        const dayMatch = lower.match(new RegExp("^" + WEEKDAYS[w] + "\\s+(\\d{1,2})$"));
-        if (dayMatch) {
-          foundDay = pad2(dayMatch[1]);
-        }
+      const day = isWeekdayDay(current);
+      if (day) {
+        foundDay = day;
       }
 
-      if (/^(Opera|Concerto|Balletto)$/i.test(current)) {
+      if (isCategory(current)) {
         foundCategory = current.toLowerCase();
       }
 
-      if (/^20\d{2}$/.test(current)) {
-        foundYear = current;
-        break;
+      if (foundDay) {
+        if (foundMonth) {
+          if (foundYear) {
+            break;
+          }
+        }
+      }
+    }
+
+    if (!foundDay) {
+      for (let j = i + 1; j < Math.min(i + 28, lines.length); j++) {
+        const current = lines[j];
+        const lower = current.toLowerCase();
+
+        const my = isMonthYear(lower);
+        if (my) {
+          foundMonth = MONTHS[my[1]];
+          foundYear = my[2];
+        }
+
+        const day = isWeekdayDay(current);
+        if (day) {
+          foundDay = day;
+        }
+
+        if (isCategory(current)) {
+          foundCategory = current.toLowerCase();
+        }
+
+        if (foundDay) {
+          if (foundMonth) {
+            if (foundYear) {
+              break;
+            }
+          }
+        }
       }
     }
 
@@ -164,6 +229,7 @@ function parseArenaCalendar(html, events) {
     }
 
     let category = "concert";
+
     if (foundCategory === "opera") {
       category = "opera";
     }
@@ -236,6 +302,7 @@ function parseVeronafiereCalendar(html, year, events) {
     }
 
     let fullTitle = title;
+
     if (subtitle) {
       if (!parseDateRange(subtitle, year).length) {
         if (!MONTHS[subtitle.toLowerCase()]) {
