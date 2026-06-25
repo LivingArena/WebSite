@@ -1,9 +1,1074 @@
 {
-  "updated_at": "",
+  "updated_at": "2026-06-25T16:37:34.663Z",
   "sources": [
     "https://www.arena.it/calendario/",
     "https://www.arena.it/arena-opera-festival/calendario/",
     "https://www.veronafiere.it/calendario-fiere/"
   ],
-  "events": []
+  "events": [
+    {
+      "date": "2026-01-23",
+      "category": "fair",
+      "title": "Motor Bike Expo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-01-24",
+      "category": "fair",
+      "title": "Motor Bike Expo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-01-25",
+      "category": "fair",
+      "title": "Motor Bike Expo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-04",
+      "category": "fair",
+      "title": "Fieragricola - International Agricultural Technologies Show",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-05",
+      "category": "fair",
+      "title": "Fieragricola - International Agricultural Technologies Show",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-06",
+      "category": "fair",
+      "title": "Fieragricola - International Agricultural Technologies Show",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-07",
+      "category": "fair",
+      "title": "Fieragricola - International Agricultural Technologies Show",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-14",
+      "category": "fair",
+      "title": "Verona Sposi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-15",
+      "category": "fair",
+      "title": "Verona Sposi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-15",
+      "category": "fair",
+      "title": "Borsa scambio giocattolo d'epoca",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-18",
+      "category": "fair",
+      "title": "Concorso Sol d'Oro Emisfero Nord",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-19",
+      "category": "fair",
+      "title": "Concorso Sol d'Oro Emisfero Nord",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-20",
+      "category": "fair",
+      "title": "Concorso Sol d'Oro Emisfero Nord",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-21",
+      "category": "fair",
+      "title": "Concorso Sol d'Oro Emisfero Nord",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-22",
+      "category": "fair",
+      "title": "Concorso Sol d'Oro Emisfero Nord",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-23",
+      "category": "fair",
+      "title": "Concorso Sol d'Oro Emisfero Nord",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-24",
+      "category": "fair",
+      "title": "Concorso Sol d'Oro Emisfero Nord",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-25",
+      "category": "fair",
+      "title": "Progetto Fuoco",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-26",
+      "category": "fair",
+      "title": "Progetto Fuoco",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-27",
+      "category": "fair",
+      "title": "Progetto Fuoco",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-02-28",
+      "category": "fair",
+      "title": "Progetto Fuoco",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-01",
+      "category": "fair",
+      "title": "SOLExpo - Full Olive Experience",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-02",
+      "category": "fair",
+      "title": "SOLExpo - Full Olive Experience",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-03",
+      "category": "fair",
+      "title": "SOLExpo - Full Olive Experience",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-07",
+      "category": "fair",
+      "title": "ElettroExpo - Fiera dell'elettronica, dell'informatica e del radioamatore",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-07",
+      "category": "fair",
+      "title": "Model Expo Italy - La fiera del modellismo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-08",
+      "category": "fair",
+      "title": "ElettroExpo - Fiera dell'elettronica, dell'informatica e del radioamatore",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-08",
+      "category": "fair",
+      "title": "Model Expo Italy - La fiera del modellismo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-10",
+      "category": "fair",
+      "title": "Letexpo - La Fiera del trasporto e della logistica sostenibili",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-11",
+      "category": "fair",
+      "title": "Letexpo - La Fiera del trasporto e della logistica sostenibili",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-12",
+      "category": "fair",
+      "title": "Letexpo - La Fiera del trasporto e della logistica sostenibili",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-13",
+      "category": "fair",
+      "title": "Letexpo - La Fiera del trasporto e della logistica sostenibili",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-13",
+      "category": "fair",
+      "title": "Sportexpo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-14",
+      "category": "fair",
+      "title": "Sportexpo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-15",
+      "category": "fair",
+      "title": "Sportexpo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-19",
+      "category": "fair",
+      "title": "Ricambisti Day",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-20",
+      "category": "fair",
+      "title": "Vita in Campagna La Fiera",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-21",
+      "category": "fair",
+      "title": "Vita in Campagna La Fiera",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-22",
+      "category": "fair",
+      "title": "Vita in Campagna La Fiera",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-07",
+      "category": "fair",
+      "title": "5StarWines - the Book",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-08",
+      "category": "fair",
+      "title": "5StarWines - the Book",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-09",
+      "category": "fair",
+      "title": "5StarWines - the Book",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-10",
+      "category": "fair",
+      "title": "Vinitaly and the City - Verona - L’emozione di Vinitaly nel cuore di Verona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-11",
+      "category": "fair",
+      "title": "Vinitaly and the City - Verona - L’emozione di Vinitaly nel cuore di Verona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-11",
+      "category": "fair",
+      "title": "Vinitaly Design Award",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-11",
+      "category": "fair",
+      "title": "OperaWine - Finest Italian Wines",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-12",
+      "category": "fair",
+      "title": "Vinitaly and the City - Verona - L’emozione di Vinitaly nel cuore di Verona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-12",
+      "category": "fair",
+      "title": "Enolitech - Salone Internazionale dedicato a tutta la filiera tecnologica applicata alla vitivinicoltura e al beverage",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-12",
+      "category": "fair",
+      "title": "Vinitaly - World Wine Business",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-13",
+      "category": "fair",
+      "title": "Enolitech - Salone Internazionale dedicato a tutta la filiera tecnologica applicata alla vitivinicoltura e al beverage",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-13",
+      "category": "fair",
+      "title": "Vinitaly - World Wine Business",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-14",
+      "category": "fair",
+      "title": "Enolitech - Salone Internazionale dedicato a tutta la filiera tecnologica applicata alla vitivinicoltura e al beverage",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-14",
+      "category": "fair",
+      "title": "Vinitaly - World Wine Business",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-15",
+      "category": "fair",
+      "title": "Enolitech - Salone Internazionale dedicato a tutta la filiera tecnologica applicata alla vitivinicoltura e al beverage",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-04-15",
+      "category": "fair",
+      "title": "Vinitaly - World Wine Business",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-06",
+      "category": "fair",
+      "title": "Samoter - Salone internazionale Movimento Terra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-07",
+      "category": "fair",
+      "title": "Samoter - Salone internazionale Movimento Terra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-08",
+      "category": "fair",
+      "title": "Samoter - Salone internazionale Movimento Terra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "fair",
+      "title": "Samoter - Salone internazionale Movimento Terra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-19",
+      "category": "fair",
+      "title": "Automotive Dealer Day - House of mobility",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-20",
+      "category": "fair",
+      "title": "Automotive Dealer Day - House of mobility",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-21",
+      "category": "fair",
+      "title": "Automotive Dealer Day - House of mobility",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-21",
+      "category": "fair",
+      "title": "Veronafil - Manifestazione filatelica, numismatica, cartofila",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-22",
+      "category": "fair",
+      "title": "Veronafil - Manifestazione filatelica, numismatica, cartofila",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-22",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera Internazionale di Minerali, Fossili e Preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-23",
+      "category": "fair",
+      "title": "Veronafil - Manifestazione filatelica, numismatica, cartofila",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-23",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera Internazionale di Minerali, Fossili e Preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-05-24",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera Internazionale di Minerali, Fossili e Preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "fair",
+      "title": "Vinitaly and the City Calabria in Wine - Sibari",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-07-18",
+      "category": "fair",
+      "title": "Vinitaly and the City Calabria in Wine - Sibari",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-07-19",
+      "category": "fair",
+      "title": "Vinitaly and the City Calabria in Wine - Sibari",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-08-08",
+      "category": "fair",
+      "title": "Vinitaly and the City Calabria in Wine - Reggio Calabria",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-08-09",
+      "category": "fair",
+      "title": "Vinitaly and the City Calabria in Wine - Reggio Calabria",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-09-22",
+      "category": "fair",
+      "title": "Marmomac - Mostra internazionale di marmi, design, macchine e tecnologie",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-09-23",
+      "category": "fair",
+      "title": "Marmomac - Mostra internazionale di marmi, design, macchine e tecnologie",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-09-24",
+      "category": "fair",
+      "title": "Marmomac - Mostra internazionale di marmi, design, macchine e tecnologie",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-09-25",
+      "category": "fair",
+      "title": "Marmomac - Mostra internazionale di marmi, design, macchine e tecnologie",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-07",
+      "category": "fair",
+      "title": "Solar & Storage Live Show - Sistemi Fotovoltaici, di Accumulo e Complementari",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-07",
+      "category": "fair",
+      "title": "MCTer Expo - Fiera efficienza energetica e rinnovabili",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "fair",
+      "title": "Solar & Storage Live Show - Sistemi Fotovoltaici, di Accumulo e Complementari",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "fair",
+      "title": "MCTer Expo - Fiera efficienza energetica e rinnovabili",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-09",
+      "category": "fair",
+      "title": "Artverona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-10",
+      "category": "fair",
+      "title": "Artverona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-11",
+      "category": "fair",
+      "title": "Artverona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "fair",
+      "title": "Service Day",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "fair",
+      "title": "Service Day",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "fair",
+      "title": "Fieracavalli - La fiera dedicata ai cavalli e all'equitazione",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "fair",
+      "title": "Fieracavalli - La fiera dedicata ai cavalli e all'equitazione",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-07",
+      "category": "fair",
+      "title": "Fieracavalli - La fiera dedicata ai cavalli e all'equitazione",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-08",
+      "category": "fair",
+      "title": "Fieracavalli - La fiera dedicata ai cavalli e all'equitazione",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera internazionale di minerali, fossili e preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-21",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera internazionale di minerali, fossili e preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera internazionale di minerali, fossili e preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "fair",
+      "title": "JOB&Orienta - Mostra convegno nazionale - Orientamento, scuola, formazione,lavoro",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "fair",
+      "title": "JOB&Orienta - Mostra convegno nazionale - Orientamento, scuola, formazione,lavoro",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "fair",
+      "title": "JOB&Orienta - Mostra convegno nazionale - Orientamento, scuola, formazione,lavoro",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-28",
+      "category": "fair",
+      "title": "JOB&Orienta - Mostra convegno nazionale - Orientamento, scuola, formazione,lavoro",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-22",
+      "category": "fair",
+      "title": "Motor Bike Expo - The international motorcycle show",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-23",
+      "category": "fair",
+      "title": "Motor Bike Expo - The international motorcycle show",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-24",
+      "category": "fair",
+      "title": "Motor Bike Expo - The international motorcycle show",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-27",
+      "category": "fair",
+      "title": "Fieragricola TECH",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-28",
+      "category": "fair",
+      "title": "Fieragricola TECH",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-02-28",
+      "category": "fair",
+      "title": "-",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-02",
+      "category": "fair",
+      "title": "SOLExpo - Full Olive Experience",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-06",
+      "category": "fair",
+      "title": "Model Expo Italy - La fiera del modellismo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-06",
+      "category": "fair",
+      "title": "ElettroExpo - Fiera dell'elettronica, dell'informatica e del radioamatore",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-07",
+      "category": "fair",
+      "title": "Model Expo Italy - La fiera del modellismo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-07",
+      "category": "fair",
+      "title": "ElettroExpo - Fiera dell'elettronica, dell'informatica e del radioamatore",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-18",
+      "category": "fair",
+      "title": "Ricambisti Day",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-19",
+      "category": "fair",
+      "title": "Vita in Campagna La Fiera",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-20",
+      "category": "fair",
+      "title": "Vita in Campagna La Fiera",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-03-21",
+      "category": "fair",
+      "title": "Vita in Campagna La Fiera",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-09",
+      "category": "fair",
+      "title": "Vinitaly and the City - Verona - L’emozione di Vinitaly nel cuore di Verona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-10",
+      "category": "fair",
+      "title": "Vinitaly and the City - Verona - L’emozione di Vinitaly nel cuore di Verona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-10",
+      "category": "fair",
+      "title": "OperaWine - Finest Italian Wines",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-11",
+      "category": "fair",
+      "title": "Vinitaly and the City - Verona - L’emozione di Vinitaly nel cuore di Verona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-11",
+      "category": "fair",
+      "title": "Vinitaly - Salone internazionale del vino e dei distillati",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-11",
+      "category": "fair",
+      "title": "Enolitech - Il salone internazionale dedicato alle attrezzature del design, dei prodotti e delle tecnologie per la produzione di vino e birra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-12",
+      "category": "fair",
+      "title": "Vinitaly - Salone internazionale del vino e dei distillati",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-12",
+      "category": "fair",
+      "title": "Enolitech - Il salone internazionale dedicato alle attrezzature del design, dei prodotti e delle tecnologie per la produzione di vino e birra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-13",
+      "category": "fair",
+      "title": "Vinitaly - Salone internazionale del vino e dei distillati",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-13",
+      "category": "fair",
+      "title": "Enolitech - Il salone internazionale dedicato alle attrezzature del design, dei prodotti e delle tecnologie per la produzione di vino e birra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-14",
+      "category": "fair",
+      "title": "Vinitaly - Salone internazionale del vino e dei distillati",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-14",
+      "category": "fair",
+      "title": "Enolitech - Il salone internazionale dedicato alle attrezzature del design, dei prodotti e delle tecnologie per la produzione di vino e birra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-05-11",
+      "category": "fair",
+      "title": "Automotive Dealer Day - House of mobility",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-05-12",
+      "category": "fair",
+      "title": "Automotive Dealer Day - House of mobility",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-05-13",
+      "category": "fair",
+      "title": "Automotive Dealer Day - House of mobility",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-05-21",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera Internazionale di Minerali, Fossili e Preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-05-22",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera Internazionale di Minerali, Fossili e Preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-05-23",
+      "category": "fair",
+      "title": "Verona Mineral Show - Fiera Internazionale di Minerali, Fossili e Preziosi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-06-09",
+      "category": "fair",
+      "title": "Experience Retail - L'evento italiano per i punti vendita",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-06-10",
+      "category": "fair",
+      "title": "Experience Retail - L'evento italiano per i punti vendita",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-06-11",
+      "category": "fair",
+      "title": "Experience Retail - L'evento italiano per i punti vendita",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    }
+  ]
 }
