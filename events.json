@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T12:20:37.563Z",
+  "updated_at": "2026-07-03T11:57:48.527Z",
   "sources": [
     "https://www.arena.it/calendario/",
     "https://www.arena.it/arena-opera-festival/calendario/",
@@ -201,7 +201,7 @@
     {
       "date": "2026-03-07",
       "category": "fair",
-      "title": "ElettroExpo - Fiera dell'elettronica, dell'informatica e del radioamatore",
+      "title": "Model Expo Italy - La fiera del modellismo",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
@@ -209,14 +209,6 @@
     {
       "date": "2026-03-07",
       "category": "fair",
-      "title": "Model Expo Italy - La fiera del modellismo",
-      "time": "",
-      "place": "Veronafiere",
-      "url": "https://www.veronafiere.it/calendario-fiere/"
-    },
-    {
-      "date": "2026-03-08",
-      "category": "fair",
       "title": "ElettroExpo - Fiera dell'elettronica, dell'informatica e del radioamatore",
       "time": "",
       "place": "Veronafiere",
@@ -226,6 +218,14 @@
       "date": "2026-03-08",
       "category": "fair",
       "title": "Model Expo Italy - La fiera del modellismo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-03-08",
+      "category": "fair",
+      "title": "ElettroExpo - Fiera dell'elettronica, dell'informatica e del radioamatore",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
@@ -778,6 +778,30 @@
       "date": "2026-11-28",
       "category": "fair",
       "title": "JOB&Orienta - Mostra convegno nazionale - Orientamento, scuola, formazione,lavoro",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-12-10",
+      "category": "fair",
+      "title": "Numisfero - Il mondo del collezionismo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-12-11",
+      "category": "fair",
+      "title": "Numisfero - Il mondo del collezionismo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-12-12",
+      "category": "fair",
+      "title": "Numisfero - Il mondo del collezionismo",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
