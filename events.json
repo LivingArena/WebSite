@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T06:27:41.473Z",
+  "updated_at": "2026-07-17T06:24:32.844Z",
   "sources": [
     "https://www.arena.it/calendario/",
     "https://www.arena.it/arena-opera-festival/calendario/",
@@ -842,6 +842,38 @@
       "date": "2027-01-28",
       "category": "fair",
       "title": "Fieragricola TECH",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-28",
+      "category": "fair",
+      "title": "HYROX - World Series of Fitness Racing",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-29",
+      "category": "fair",
+      "title": "HYROX - World Series of Fitness Racing",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-30",
+      "category": "fair",
+      "title": "HYROX - World Series of Fitness Racing",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-01-31",
+      "category": "fair",
+      "title": "HYROX - World Series of Fitness Racing",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
