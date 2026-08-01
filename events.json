@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T06:51:30.740Z",
+  "updated_at": "2026-08-01T06:37:46.195Z",
   "sources": [
     "https://www.arena.it/calendario/",
     "https://www.arena.it/arena-opera-festival/calendario/",
@@ -674,6 +674,14 @@
       "date": "2026-10-11",
       "category": "fair",
       "title": "Artverona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-11",
+      "category": "fair",
+      "title": "Borsa scambio giocattolo d'epoca",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
