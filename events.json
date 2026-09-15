@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T09:46:54.243Z",
+  "updated_at": "2026-09-15T09:21:26.783Z",
   "sources": [
     "https://www.arena.it/calendario/",
     "https://www.arena.it/arena-opera-festival/calendario/",
@@ -361,7 +361,7 @@
     {
       "date": "2026-04-11",
       "category": "fair",
-      "title": "Vinitaly Design Award",
+      "title": "OperaWine - Finest Italian Wines",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
@@ -369,7 +369,7 @@
     {
       "date": "2026-04-11",
       "category": "fair",
-      "title": "OperaWine - Finest Italian Wines",
+      "title": "Vinitaly Design Award",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
@@ -703,6 +703,38 @@
       "url": "https://www.veronafiere.it/calendario-fiere/"
     },
     {
+      "date": "2026-10-17",
+      "category": "fair",
+      "title": "Bridal Week - La Fiera degli sposi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-17",
+      "category": "fair",
+      "title": "Fiera del disco",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "fair",
+      "title": "Bridal Week - La Fiera degli sposi",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "fair",
+      "title": "Fiera del disco",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
       "date": "2026-11-05",
       "category": "fair",
       "title": "Fieracavalli - La fiera dedicata ai cavalli e all'equitazione",
@@ -730,6 +762,22 @@
       "date": "2026-11-08",
       "category": "fair",
       "title": "Fieracavalli - La fiera dedicata ai cavalli e all'equitazione",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-14",
+      "category": "fair",
+      "title": "I gatti piu belli del mondo",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-15",
+      "category": "fair",
+      "title": "I gatti piu belli del mondo",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
