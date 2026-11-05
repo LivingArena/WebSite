@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T11:59:50.920Z",
+  "updated_at": "2026-11-05T12:09:37.891Z",
   "sources": [
     "https://www.arena.it/calendario/",
     "https://www.arena.it/arena-opera-festival/calendario/",
@@ -705,7 +705,7 @@
     {
       "date": "2026-10-17",
       "category": "fair",
-      "title": "Bridal Week - La Fiera degli sposi",
+      "title": "Fiera del disco",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
@@ -713,14 +713,6 @@
     {
       "date": "2026-10-17",
       "category": "fair",
-      "title": "Fiera del disco",
-      "time": "",
-      "place": "Veronafiere",
-      "url": "https://www.veronafiere.it/calendario-fiere/"
-    },
-    {
-      "date": "2026-10-18",
-      "category": "fair",
       "title": "Bridal Week - La Fiera degli sposi",
       "time": "",
       "place": "Veronafiere",
@@ -730,6 +722,14 @@
       "date": "2026-10-18",
       "category": "fair",
       "title": "Fiera del disco",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "fair",
+      "title": "Bridal Week - La Fiera degli sposi",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
@@ -815,7 +815,31 @@
       "url": "https://www.veronafiere.it/calendario-fiere/"
     },
     {
+      "date": "2026-11-25",
+      "category": "fair",
+      "title": "43 Assemblea ANCI - Cara Italia. I sindaci per l’ottantesimo della nostra Repubblica",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
       "date": "2026-11-26",
+      "category": "fair",
+      "title": "JOB&Orienta - Mostra convegno nazionale - Orientamento, scuola, formazione,lavoro",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "fair",
+      "title": "43 Assemblea ANCI - Cara Italia. I sindaci per l’ottantesimo della nostra Repubblica",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2026-11-27",
       "category": "fair",
       "title": "JOB&Orienta - Mostra convegno nazionale - Orientamento, scuola, formazione,lavoro",
       "time": "",
@@ -825,7 +849,7 @@
     {
       "date": "2026-11-27",
       "category": "fair",
-      "title": "JOB&Orienta - Mostra convegno nazionale - Orientamento, scuola, formazione,lavoro",
+      "title": "43 Assemblea ANCI - Cara Italia. I sindaci per l’ottantesimo della nostra Repubblica",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
