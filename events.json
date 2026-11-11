@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:28:33.441Z",
+  "updated_at": "2026-11-11T11:47:57.074Z",
   "sources": [
     "https://www.arena.it/calendario/",
     "https://www.arena.it/arena-opera-festival/calendario/",
@@ -1071,6 +1071,30 @@
       "url": "https://www.veronafiere.it/calendario-fiere/"
     },
     {
+      "date": "2027-04-06",
+      "category": "fair",
+      "title": "5StarWines - the Book",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-07",
+      "category": "fair",
+      "title": "5StarWines - the Book",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-08",
+      "category": "fair",
+      "title": "5StarWines - the Book",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
       "date": "2027-04-09",
       "category": "fair",
       "title": "Vinitaly and the City - Verona - L’emozione di Vinitaly nel cuore di Verona",
@@ -1082,6 +1106,14 @@
       "date": "2027-04-10",
       "category": "fair",
       "title": "Vinitaly and the City - Verona - L’emozione di Vinitaly nel cuore di Verona",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-10",
+      "category": "fair",
+      "title": "Vinitaly Design Award",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
@@ -1105,7 +1137,7 @@
     {
       "date": "2027-04-11",
       "category": "fair",
-      "title": "Vinitaly - Salone internazionale del vino e dei distillati",
+      "title": "Enolitech - Il salone internazionale dedicato alle attrezzature del design, dei prodotti e delle tecnologie per la produzione di vino e birra",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
@@ -1113,14 +1145,6 @@
     {
       "date": "2027-04-11",
       "category": "fair",
-      "title": "Enolitech - Il salone internazionale dedicato alle attrezzature del design, dei prodotti e delle tecnologie per la produzione di vino e birra",
-      "time": "",
-      "place": "Veronafiere",
-      "url": "https://www.veronafiere.it/calendario-fiere/"
-    },
-    {
-      "date": "2027-04-12",
-      "category": "fair",
       "title": "Vinitaly - Salone internazionale del vino e dei distillati",
       "time": "",
       "place": "Veronafiere",
@@ -1135,7 +1159,7 @@
       "url": "https://www.veronafiere.it/calendario-fiere/"
     },
     {
-      "date": "2027-04-13",
+      "date": "2027-04-12",
       "category": "fair",
       "title": "Vinitaly - Salone internazionale del vino e dei distillati",
       "time": "",
@@ -1151,7 +1175,7 @@
       "url": "https://www.veronafiere.it/calendario-fiere/"
     },
     {
-      "date": "2027-04-14",
+      "date": "2027-04-13",
       "category": "fair",
       "title": "Vinitaly - Salone internazionale del vino e dei distillati",
       "time": "",
@@ -1162,6 +1186,14 @@
       "date": "2027-04-14",
       "category": "fair",
       "title": "Enolitech - Il salone internazionale dedicato alle attrezzature del design, dei prodotti e delle tecnologie per la produzione di vino e birra",
+      "time": "",
+      "place": "Veronafiere",
+      "url": "https://www.veronafiere.it/calendario-fiere/"
+    },
+    {
+      "date": "2027-04-14",
+      "category": "fair",
+      "title": "Vinitaly - Salone internazionale del vino e dei distillati",
       "time": "",
       "place": "Veronafiere",
       "url": "https://www.veronafiere.it/calendario-fiere/"
